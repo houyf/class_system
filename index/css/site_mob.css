@@ -1,0 +1,149 @@
+.ui-header img {
+	width: 20%;
+}
+.header {
+	text-align: center;
+}
+.title {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+/*control index table*/
+
+.hidden {
+	display: none;
+}
+.display {
+	display: block;
+}
+.display_add {
+	display: block;
+}
+/*terminal hidden*/
+
+.hidden0 {
+	display: none;
+}
+.hidden1 {
+	display: none;
+}
+.display1 {
+	display: block;
+}
+.display_add1 {
+	display: block;
+}
+.note_detail {
+	text-align: center;
+}
+
+.dep_d{
+	color:#000;
+}
+
+#more1,
+#more2,
+#more3 {
+	margin-top: 20px;
+}
+#more_news {
+	text-align: center;
+}
+
+.note_detail{
+	color:#373736;
+}
+
+
+
+.ui-mobile-viewport,.ui-page, .ui-content, .ui-btn{
+	background-color:transparent!important;
+}
+/*custom*/
+body{
+	background-image:url('/images/mob/background.jpg')!important;
+	/*position: fixed;*/
+    background-attachment:fixed;
+	background-size:cover;
+}
+
+.white_mask{
+	background: rgba(255, 255, 255, 0.5)!important;
+	color:#000!important;
+}
+
+.black_mask{
+	background:rgba(0, 0, 0, 0.35)!important;
+	color:#FFF!important;
+	border:none!important;
+}
+
+.button_mask{
+	background: rgba(255, 255, 255, 0.2)!important;
+	color:#FFF!important;
+	border:none!important;
+	margin:0.2em!important;
+}
+
+/*worklist*/
+.button_mask_w{
+	background: rgba(0, 0, 0, 0.2)!important;
+	color:#FFF!important;
+	border:none!important;
+	margin:0.2em!important;
+}
+
+/*detial*/
+.white_mask_d{
+	background: rgba(255, 255, 255, 0.5)!important;
+	text-shadow:none;
+}
+.ui-input-text{
+	background:rgba(0, 0, 0, 0.67)!important;
+}
+
+.logo{
+	width:80%;
+	margin:1em;
+}
+h2.title{
+	color:#000;
+	text-shadow:none!important;
+	font-weight:lighter!important;
+}
+.list_part{
+	margin:-1em;
+}
+.ui-btn{
+	font-weight:lighter!important;
+	text-shadow:none!important;
+}
+span.ui-li-count.ui-body-inherit{
+	background-color: rgba(0, 0, 0, 0.3);
+	border:none;
+}
+.ui-bar-b, .ui-page-theme-b .ui-bar-inherit, html .ui-bar-b .ui-bar-inherit, html .ui-body-b .ui-bar-inherit, html body .ui-group-theme-b .ui-bar-inherit{
+
+	background-color: rgba(0, 0, 0, 0.38)!important/*{b-bar-background-color}*/;
+}
+
+.index_title{
+	text-align:inherit!important;
+	margin:0px 5%!important;
+}
+.content{
+	clear: both;
+	width: 100%;
+	padding-bottom: 70px;
+}
+.clear{
+	clear: both;
+	width: 100%;
+}
+.footer{
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}

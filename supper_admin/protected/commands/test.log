@@ -1,0 +1,2233 @@
+PHP Error[2]: include(Admin.php): failed to open stream: No such file or directory
+    in file /var/www/yii/framework/YiiBase.php at line 421
+#0 /var/www/yii/framework/YiiBase.php(421): autoload()
+#1 unknown(0): autoload()
+#2 /var/www/logistics/protected/commands/TestCommand.php(9): spl_autoload_call()
+#3 /var/www/yii/framework/console/CConsoleCommandRunner.php(67): TestCommand->run()
+#4 /var/www/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 /var/www/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#6 /var/www/logistics/protected/commands/crons.php(8): CConsoleApplication->run()
+PHP Error[2]: include(Admin.php): failed to open stream: No such file or directory
+    in file /var/www/yii/framework/YiiBase.php at line 421
+#0 /var/www/yii/framework/YiiBase.php(421): autoload()
+#1 unknown(0): autoload()
+#2 /var/www/logistics/protected/commands/TestCommand.php(9): spl_autoload_call()
+#3 /var/www/yii/framework/console/CConsoleCommandRunner.php(67): TestCommand->run()
+#4 /var/www/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 /var/www/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#6 /var/www/logistics/protected/commands/crons.php(8): CConsoleApplication->run()
+exception 'CException' with message 'Property "TestCommand.username" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/logistics/protected/commands/TestCommand.php(9): CComponent->__get('username')
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(67): TestCommand->run(Array)
+#2 /var/www/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#3 /var/www/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#4 /var/www/logistics/protected/commands/crons.php(8): CApplication->run()
+#5 {main}exception 'CException' with message 'Property "TestCommand.username" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/logistics/protected/commands/TestCommand.php(9): CComponent->__get('username')
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(67): TestCommand->run(Array)
+#2 /var/www/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#3 /var/www/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#4 /var/www/logistics/protected/commands/crons.php(8): CApplication->run()
+#5 {main}exception 'CException' with message 'Property "TestCommand.username" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/logistics/protected/commands/TestCommand.php(9): CComponent->__get('username')
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(67): TestCommand->run(Array)
+#2 /var/www/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#3 /var/www/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#4 /var/www/logistics/protected/commands/crons.php(8): CApplication->run()
+#5 {main}exception 'CException' with message 'Property "TestCommand.username" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/logistics/protected/commands/TestCommand.php(9): CComponent->__get('username')
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(67): TestCommand->run(Array)
+#2 /var/www/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#3 /var/www/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#4 /var/www/logistics/protected/commands/crons.php(8): CApplication->run()
+#5 {main}PHP Error[8]: Trying to get property of non-object
+    in file /var/www/logistics/protected/commands/TestCommand.php at line 16
+#0 /var/www/yii/framework/console/CConsoleCommandRunner.php(67): TestCommand->run()
+#1 /var/www/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#2 /var/www/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#3 /var/www/logistics/protected/commands/crons.php(8): CConsoleApplication->run()
+PHP Error[8]: Trying to get property of non-object
+    in file /var/www/logistics/protected/commands/TestCommand.php at line 21
+#0 /var/www/yii/framework/console/CConsoleCommandRunner.php(67): TestCommand->run()
+#1 /var/www/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#2 /var/www/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#3 /var/www/logistics/protected/commands/crons.php(8): CConsoleApplication->run()
+PHP Error[8]: Trying to get property of non-object
+    in file /var/www/logistics/protected/commands/TestCommand.php at line 21
+#0 /var/www/yii/framework/console/CConsoleCommandRunner.php(67): TestCommand->run()
+#1 /var/www/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#2 /var/www/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#3 /var/www/logistics/protected/commands/crons.php(8): CConsoleApplication->run()
+SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />Message body empty
+Message body empty
+Message body empty
+Message body empty
+Message body empty
+Message body empty
+Message body empty
+Message body empty
+Message body empty
+Message body empty
+Message body empty
+Message body empty
+SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo failed: Name or service not known (0)
+<br />SMTP Error: Could not connect to SMTP host.
+SMTP -> ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo failed: Name or service not known (0)
+<br />SMTP Error: Could not connect to SMTP host.
+SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo failed: Name or service not known (0)
+<br />SMTP Error: Could not connect to SMTP host.
+SMTP -> ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo failed: Name or service not known (0)
+<br />SMTP Error: Could not connect to SMTP host.
+SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> get_lines(): $data is "220 smtp.qq.com Esmtp QQ Mail Server
+"
+<br />SMTP -> FROM SERVER:220 smtp.qq.com Esmtp QQ Mail Server
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+"
+<br />SMTP -> get_lines(): $str is "250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+"
+<br />SMTP -> get_lines(): $str is "250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+"
+<br />SMTP -> get_lines(): $str is "250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+"
+<br />SMTP -> get_lines(): $str is "250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+"
+<br />SMTP -> get_lines(): $str is "250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $data was "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+"
+<br />SMTP -> get_lines(): $str is "250 8BITMIME
+"
+<br />SMTP -> get_lines(): $data is "250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+"
+<br />SMTP -> FROM SERVER: 250-smtp.qq.com
+250-PIPELINING
+250-SIZE 52428800
+250-STARTTLS
+250-AUTH LOGIN PLAIN
+250-AUTH=LOGIN
+250-MAILCOMPRESS
+250 8BITMIME
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data is "334 VXNlcm5hbWU6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data is "334 UGFzc3dvcmQ6
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data is "235 Authentication successful
+"
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok
+"
+<br />SMTP -> get_lines(): $data is "250 Ok
+"
+<br />SMTP -> FROM SERVER:250 Ok
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> get_lines(): $data is "354 End data with <CR><LF>.<CR><LF>
+"
+<br />SMTP -> FROM SERVER:354 End data with <CR><LF>.<CR><LF>
+
+<br />SMTP -> get_lines(): $data was ""
+<br />SMTP -> get_lines(): $str is "250 Ok: queued as 
+"
+<br />SMTP -> get_lines(): $data is "250 Ok: queued as 
+"
+<br />SMTP -> FROM SERVER:250 Ok: queued as 
+
+<br />exception 'CException' with message 'Alias "application.extensions.mailer.EMailer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/yii/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/yii/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /var/www/logistics/protected/commands/TestCommand.php(14): YiiBase::createComponent('application.ext...')
+#2 /var/www/yii/framework/console/CConsoleCommandRunner.php(67): TestCommand->run(Array)
+#3 /var/www/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#4 /var/www/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#5 /var/www/logistics/protected/commands/crons.php(8): CApplication->run()
+#6 {main}

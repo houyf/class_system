@@ -1,0 +1,2 @@
+ <?php  if($_GET['error'] == 1)   {echo "<h1>   你已经竞选了" .   $model -> position -> position_name.  "职位， 不能重复竞选; </h1>" ;} ?>
+   <?php  if($_GET['error'] == 0)   {echo "<h1> 竟选 " . $model -> position -> position_name  . " 成功 </h1>" ;} ?>

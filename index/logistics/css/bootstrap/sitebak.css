@@ -1,0 +1,276 @@
+body{
+	font-family:"Microsoft JhengHei", "SimHei", "Lato", Helvetica, Arial, sans-serif;
+}
+
+.container,.danghang{
+	width:1000px!important;
+	min-width:1000px!important;
+	padding-left:0px;
+	padding-right:0px;
+}
+/*index*/
+.col-xs-8{
+	width:650px!important;
+	padding-left:0px!important;
+	padding-right:0px!important;
+
+}
+.col-xs-4{
+	width:335px!important;
+	padding-left:0px!important;
+	padding-right:0px!important;
+	margin-left:15px!important;
+}
+
+/*news*/
+.col-xs-10{
+	width:800px!important;
+	padding-left:0px!important;
+	padding-right:0px!important;
+	margin-left:15px!important;
+}
+.col-xs-2{
+	width:185px!important;
+	padding-left:0px!important;
+	padding-right:0px!important;
+}
+
+/*nd*/
+.col-xs-750{
+	width:751px;
+	padding-left:0px!important;
+	padding-right:0px!important;
+	border-top:2px solid green;
+	border-bottom:2px solid green;
+	margin:3em auto!important;
+}
+
+.col-xs-750 h2{
+	margin:0px;
+	text-align:center;
+	border-bottom:2px dashed gray;
+	padding:1em;
+}
+.col-xs-750 small{
+	margin:5px;
+}
+
+.col-xs-750 .note{
+	text-align:center;
+}
+.content{
+	margin-top:2em;
+	margin-bottom:2em;
+}	
+/*all*/
+.row{
+	width:1000px;
+	padding-left:0px!important;
+	padding-right:0px!important;
+	margin-left:0px!important;
+	margin-right:0px!important;
+	margin:15px 0px;
+
+}
+
+header{
+	min-height:8em!important;
+	background:#005825!important;
+}
+.navbar{
+	background:#114025!important;
+	border-color:#005825!important;
+}
+
+
+nav ul li:hover{
+	background:#0C6837;
+	border-top:1px solid green;
+}
+
+nav ul li{
+	border-top:1px solid #FFF;
+}
+
+nav ul li a{
+	color:#FFF!important;
+}
+
+footer{
+	background:#005825!important;
+	padding: 20px 20px;
+	margin: 0px auto;
+	color: #FFFFFF;
+	_height: 105px;
+	font-size: 12px;
+}
+
+.bottomlogo {
+	padding: 5px 10px;
+	border-right: #FFFFFF 1px solid;
+	float: left;
+}
+
+.bottomcontact_cn {
+	height: 40px;
+	padding: 2px 20px 5px 20px;
+		 line-height: 24px;
+	float: left;
+}
+
+.copyright {
+	padding: 10px;
+	margin: 0px;
+	color: #99BCA8;
+	   font-size: 12px;
+	   text-align: center;
+	   word-spacing: 3px;
+}
+
+.clear {
+	clear: both;
+}
+
+.navbar-nav>li{
+	width:166.66px;
+	text-align:center;
+}
+
+.head{
+	margin-top:1em;
+}
+
+.navbar-form{
+	margin-top:2em!important;
+	width:500px!important;
+	float:left!important;
+	padding:0px!important;
+}
+.logo{
+	width:500px;
+	float:left;
+}
+
+
+.navbar-form button,.navbar-form .form-group,.navbar-form .dropdown{
+	float:right;
+}
+
+
+.dropdown ul{
+	padding-left:0px;
+}
+.dropdown{
+	width:106px!important;
+}
+
+#fwzn td div{
+	padding:1em;
+	border:2px solid green;	
+	width:180px;
+	overflow:hidden;
+	color:green;
+	font-size:1em;
+	cursor:pointer;
+	text-decoration:blink;
+}
+
+#fwzn td div:hover{
+	background:green;
+	color:#FFF;
+	text-decoration:blink;
+}
+.panel #fwzn td div{
+	width:120px!important;
+	height: 3em;
+	vertical-align: middle;
+	display: table-cell;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0px!important;
+	padding-bottom: 0px!important;
+
+}
+
+
+#fwzn td {
+	padding:3px!important;
+	text-align:center;
+	border-top:none;
+}
+
+#fwzn{
+	padding:20px;
+}
+a{
+	cursor:pointer;
+	color:green;
+}
+li.active a{
+	background:#005825!important;
+	color:#FFF!important;
+}
+
+.nav-stacked li a{
+	border:2px solid green;
+	color:green;
+	text-align:center;
+}
+
+
+/*服务指南下面的色块选中后保留颜色*/
+#fwzn .active{
+	color:#FFF!important;
+	background:green!important;
+}
+.bottomlogo img{
+	width:180px;
+}
+
+li,a,input,button{ outline:none; }
+::-moz-focus-inner{border:0px;}
+
+
+.navbar-form .dropdown{
+	border-radius:3px;
+}
+
+.hot a{
+	width: 220px;
+	height: 1em;
+	padding: 0px;		 
+	font-size: 1em;
+	display: inline-block;
+	line-height: 1em;
+	overflow: hidden;
+}
+
+.hot span{
+	width: 78px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.msg h4{
+	text-align:center;
+}
+.msg_search .btn-group,.msg_search .input-group{
+	float:left;
+}
+
+.msg_search .input-group{
+	width:300px;
+	margin-left:200px;
+}
+.msg_search .btn-group{
+	margin-left:2em;
+}
+
+#slider{
+	height:258px;
+}
+
+embed{
+	display:none;
+}
+/*  New Css  */
